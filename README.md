@@ -26,7 +26,7 @@ We built a multi-tenant WhatsApp Business CRM platform that gives clients full o
 
 ## Architecture (high level)
 
-```mermaid
+````````mermaid ````
 flowchart TD
     A[Client Tenant Dashboard] --> B[NestJS API Gateway]
     B --> C[Auth + Multi-Tenant Resolver]
